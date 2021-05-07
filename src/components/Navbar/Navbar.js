@@ -1,10 +1,20 @@
+import { List } from 'react-bootstrap-icons'
+
 import './Navbar.sass'
 
 const Navbar = () => {
+
+    //TODO: Falta agregar funcionalidad al boton List
+
     return (
-        <div>
-            <button
-            > <img src="https://img.icons8.com/ios-filled/50/000000/menu--v5.png"/> </button>
+        <div className="nav">
+            <div className="nav_nav">
+                Navegacion
+            </div>
+            <List 
+                size={26} 
+                className="nav_menu"
+            />
         </div>
     )
 }

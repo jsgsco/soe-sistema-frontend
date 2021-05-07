@@ -1,5 +1,6 @@
 import Carrousel from '../../../Carrousel'
-import Navbar from '../../../Navbar/Navbar'
+import Cursos from '../../../Cursos'
+import Navbar from '../../../Navbar'
 
 import './Home.sass'
 
@@ -9,6 +10,7 @@ const Home = () => {
             <div className="home_container">
                 <Navbar />
                 <Carrousel />
+                <Cursos />
             </div>
         </div>
     )
