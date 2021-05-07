@@ -19,6 +19,17 @@ const Cursos = () => {
                         >Ir al Curso</Link>
                     </div>
                 </div>
+                <div className="cursos_cursos-curso">
+                    <div className="cursos_cursos-curso-grado">
+                        <p>11º ONCE</p>
+                    </div>
+                    <div className="cursos_cursos-curso-ir">
+                        <Link
+                            className="cursos_cursos-curso-ir-btn"
+                            to="/mis-materias"
+                        >Ir al Curso</Link>
+                    </div>
+                </div>
             </div>
         </div>
     )
