@@ -1,9 +1,11 @@
+import Sidebar from '../../../Sidebar'
 import './AreaPersonal.sass'
 
 const AreaPersonal = () => {
     return (
-        <div>
-            desde Area Personal
+        <div className="area-personal">
+            <Sidebar />
+            <div>Mis materias</div>
         </div>
     )
 }
