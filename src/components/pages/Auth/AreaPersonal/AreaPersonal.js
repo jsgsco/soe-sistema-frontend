@@ -1,3 +1,4 @@
+import Materias from '../../../Materias'
 import Sidebar from '../../../Sidebar'
 import './AreaPersonal.sass'
 
@@ -5,7 +6,7 @@ const AreaPersonal = () => {
     return (
         <div className="area-personal">
             <Sidebar />
-            <div>Mis materias</div>
+            <Materias />
         </div>
     )
 }

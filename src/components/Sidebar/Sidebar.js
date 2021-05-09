@@ -40,7 +40,7 @@ const Sidebar = () => {
                         size={20}
                     />
                     <div className="area-personal-sidebar-info-nombre-nombre">
-                        <h3 className="area-personal-sidebar-info-nombre-nombre-title">Direcctora de Curso</h3>
+                        <h3 className="area-personal-sidebar-info-nombre-nombre-title">Directora de Curso</h3>
                         <p className="area-personal-sidebar-info-nombre-nombre-alumno">Nubia Roquel Torres</p>
                     </div>
                 </div>
